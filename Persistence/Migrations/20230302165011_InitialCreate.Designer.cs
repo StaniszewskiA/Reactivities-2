@@ -41,7 +41,7 @@ namespace Persistence.Migrations
                     b.Property<string>("Venue")
                         .HasColumnType("TEXT");
 
-                    b.Property<string>("category")
+                    b.Property<string>("Category")
                         .HasColumnType("TEXT");
 
                     b.HasKey("Id");
