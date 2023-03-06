@@ -1,4 +1,5 @@
-import { action, makeAutoObservable, makeObservable, observable } from "mobx";
+import { makeAutoObservable } from "mobx";
+import agent from "../api/agents";
 import { Activity } from "../models/activity";
 
 export default class ActivityStore {
@@ -12,8 +13,19 @@ export default class ActivityStore {
         makeAutoObservable(this)
     }
 
-    loadActivities = () => {
+    loadActivities = async () => {
         this.loadingInitial = true;
+        try{
+            const activities = await agent.Activities.list();
+            activities.forEach(activity => {
+                activity.date = activity.date.split('T')[0];
+                this.activities.push(activity);
+              })
+              this.loadingInitial = false;
+        } catch (error) {
+            console.log(error)
+            this.loadingInitial = false;
+        }
     }
 
 }
