@@ -6,8 +6,12 @@ import ActivityDashboard from '../../features/activities/dashboard/ActivityDashb
 import {v4 as uuid} from 'uuid';
 import agent from '../api/agents';
 import Loadingcomponent from './LoadingComponents';
+import { useStore } from '../stores/store';
 
 function App() {
+
+  const {activityStore} = useStore();
+  
   const [activities, setActivities] = useState<Activity[]>([]);
   const [selectedActivity, setSelectedActivity] = useState<Activity | undefined>(undefined);
   const [editMode, setEditMode] = useState(false);
@@ -77,6 +81,7 @@ function App() {
     <>
         <NavBar openForm={handleFormOpen}/>
         <Container style={{marginTop: '7em'}}>
+          <h2>{activityStore.title}</h2>
           <ActivityDashboard 
             activities={activities}
             selectedActivity={selectedActivity}
