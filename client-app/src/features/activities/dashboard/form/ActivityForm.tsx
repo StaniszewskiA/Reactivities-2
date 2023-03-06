@@ -37,7 +37,7 @@ export default function ActivityForm({activity: selectedActivity, closeForm, cre
                 <Form.Input placeholder='Title'value={activity.title} name='title' onChange={handleInputchange}/>
                 <Form.TextArea placeholder='Description'value={activity.description} name='description' onChange={handleInputchange}/>
                 <Form.Input placeholder='Category'value={activity.category} name='category' onChange={handleInputchange}/>
-                <Form.Input placeholder='Date'value={activity.date} name='date' onChange={handleInputchange}/>
+                <Form.Input type='date'placeholder='Date'value={activity.date} name='date' onChange={handleInputchange}/>
                 <Form.Input placeholder='City'value={activity.city} name='city' onChange={handleInputchange}/>
                 <Form.Input placeholder='Venue'value={activity.venue} name='venue' onChange={handleInputchange}/>
                 <Button floated='right' positive type='submit' content='Submit'/>

@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-//import './App.css';
 import { Container } from 'semantic-ui-react';
 import { Activity } from '../models/activity';
 import NavBar from './NavBar';
@@ -14,7 +13,12 @@ function App() {
 
   useEffect(() => {
     agent.Activities.list().then(response => {
-        setActivities(response);
+      let activities: Activity[] = [];
+      response.forEach(activity => {
+        activity.date = activity.date.split('T')[0];
+        activities.push(activity);
+      })
+      setActivities(activities);
       })
   }, [])
 
