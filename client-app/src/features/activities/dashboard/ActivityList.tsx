@@ -14,6 +14,8 @@ export default observer(function ActivityList(){
             {groupedActivities.map(([group, activities]) => (
                 <Fragment key={group}>
                     <Header sub color ='teal'>
+                        {group}
+                    </Header>
                     <Segment>
                         <Item.Group divided>
                         {activities.map(activity => (
@@ -21,7 +23,6 @@ export default observer(function ActivityList(){
                         ))}
                         </Item.Group>
                     </Segment>
-                    </Header>
                 </Fragment>
             ))}
         </>
