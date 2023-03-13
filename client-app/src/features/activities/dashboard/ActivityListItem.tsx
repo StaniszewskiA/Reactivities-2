@@ -1,18 +1,32 @@
+import { act } from "@testing-library/react";
+import React, { SyntheticEvent, useState } from "react";
 import { Link } from "react-router-dom";
-import { Item, Button, Segment, Icon } from "semantic-ui-react";
-import { Activity } from '../../../app/models/activity'
+import { Button, Icon, Item, Label, Segment } from "semantic-ui-react";
+import { Activity } from "../../../app/models/activity";
+import { useStore } from "../../../app/stores/store";
 
 interface Props {
-    activity: Activity 
+    activity: Activity;
 }
 
-export default function ActivityListItem({activity}: Props){
+export default function ActivityListItem({activity}: Props) {
+
+    const {activityStore} = useStore();
+    const {deleteActivity,  loading} = activityStore;
+
+    const [target, setTarget] = useState('');
+
+    function handleActivityDelete(e: SyntheticEvent<HTMLButtonElement>, id: string){
+        setTarget(e.currentTarget.name);
+        deleteActivity(id);
+    }
+
     return (
         <Segment.Group>
             <Segment>
                 <Item.Group>
                     <Item>
-                        <Item.Image size='tiny' circular src='/assets/user.png' />
+                        <Item.Image size='tiny' circular src='/assets/user.png'/>
                         <Item.Content>
                             <Item.Header as={Link} to={`/activities/${activity.id}`}>
                                 {activity.title}
@@ -24,8 +38,8 @@ export default function ActivityListItem({activity}: Props){
             </Segment>
             <Segment>
                 <span>
-                    <Icon name='clock'/> {activity.date}
-                    <Icon name='marker'/> {activity.venue}
+                    <Icon name='clock' /> {activity.date}
+                    <Icon name='marker' /> {activity.venue}
                 </span>
             </Segment>
             <Segment secondary>
@@ -38,7 +52,7 @@ export default function ActivityListItem({activity}: Props){
                     to={`/activities/${activity.id}`}
                     color='teal'
                     floated='right'
-                    content='View'
+                    content='view'
                 />
             </Segment>
         </Segment.Group>
