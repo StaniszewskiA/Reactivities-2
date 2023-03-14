@@ -4,6 +4,7 @@ import ActivityDashboard from "../../features/activities/dashboard/ActivityDashb
 import ActivityDetails from "../../features/activities/dashboard/details/ActivityDetails";
 import ActivityForm from "../../features/activities/dashboard/form/ActivityForm";
 import NotFound from "../../features/Errors/NotFound";
+import ServerError from "../../features/Errors/ServerError";
 import TestErrors from "../../features/Errors/TestError";
 import App from "../layout/App";
 
@@ -19,6 +20,7 @@ export const routes: RouteObject[] = [
             {path: 'errors', element: <TestErrors/>},
             {path: 'not-found', element: <NotFound/>},
             {path: '*', element: <Navigate replace to={'/not-found'}/>},
+            {path: 'server-error', element: <ServerError/>},
         ]
     }
 ]
