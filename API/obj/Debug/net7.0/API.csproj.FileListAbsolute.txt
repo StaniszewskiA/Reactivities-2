@@ -175,3 +175,5 @@ C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\System.IdentityM
 C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
 C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Infrastructure.dll
+C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Infrastructure.pdb
