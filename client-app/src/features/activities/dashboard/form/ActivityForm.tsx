@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
 import { Button, Header, Segment } from "semantic-ui-react";
 import Loadingcomponent from "../../../../app/layout/LoadingComponents";
-import { Activity, ActivityFormValues } from "../../../../app/models/activity";
+import { ActivityFormValues } from "../../../../app/models/activity";
 import { useStore } from "../../../../app/stores/store";
 import {v4 as uuid} from 'uuid';
 import { Formik, Form } from "formik";
@@ -17,7 +17,7 @@ import MyDateInput from "../../../../app/common/form/MyDateInput";
 export default observer (function ActivityForm(){
 
     const {activityStore} = useStore();
-    const { createActivity, updateActivity, loading, loadActivity, 
+    const { createActivity, updateActivity, loadActivity, 
         loadingInitial} = activityStore;
     const {id} = useParams();
     const navigate = useNavigate()
