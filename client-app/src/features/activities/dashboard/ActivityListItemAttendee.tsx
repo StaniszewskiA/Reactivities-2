@@ -9,6 +9,10 @@ interface Props {
 }
 
 export default observer(function ActivityListItemAttendee({attendees}: Props) {
+    if (attendees.length === 0) {
+        return null;
+    }
+
     return (
         <List horizontal>
             {attendees.map(attendee => (
