@@ -177,3 +177,5 @@ C:\Users\PanSt\source\repos\Reactivities-2\API\obj\Debug\net7.0\refint\API.dll
 C:\Users\PanSt\source\repos\Reactivities-2\API\obj\Debug\net7.0\API.pdb
 C:\Users\PanSt\source\repos\Reactivities-2\API\obj\Debug\net7.0\API.genruntimeconfig.cache
 C:\Users\PanSt\source\repos\Reactivities-2\API\obj\Debug\net7.0\ref\API.dll
+C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\CloudinaryDotNet.dll
+C:\Users\PanSt\source\repos\Reactivities-2\API\bin\Debug\net7.0\Newtonsoft.Json.dll
