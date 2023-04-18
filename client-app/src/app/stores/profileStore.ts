@@ -89,4 +89,6 @@ export default class ProfileStore {
             console.log(error)
         }
     }
+
+    
 }
