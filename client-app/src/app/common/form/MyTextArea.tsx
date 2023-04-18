@@ -9,7 +9,7 @@ interface Props {
     label?: string;
 }
 
-export default function MyTextIArea(props: Props) {
+export default function MyTextArea(props: Props) {
     const [field, meta] = useField(props.name);
     return (
         <Form.Field error={meta.touched && !!meta.error}>
