@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj": {}
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj": {
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj",
+        "projectUniqueName": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj",
+        "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\API.csproj",
         "packagesPath": "C:\\Users\\PanSt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\obj\\",
+        "outputPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,18 +25,17 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj"
               },
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -64,6 +63,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "NWebsec.AspNetCore.Middleware": {
+              "target": "Package",
+              "version": "[3.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -97,14 +100,14 @@
         }
       }
     },
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj",
+        "projectUniqueName": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj",
+        "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj",
         "packagesPath": "C:\\Users\\PanSt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\obj\\",
+        "outputPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -125,11 +128,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -177,14 +180,14 @@
         }
       }
     },
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj",
+        "projectUniqueName": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj",
+        "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj",
         "packagesPath": "C:\\Users\\PanSt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\obj\\",
+        "outputPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -242,14 +245,14 @@
         }
       }
     },
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj": {
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj",
+        "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\Infrastructure.csproj",
         "packagesPath": "C:\\Users\\PanSt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\obj\\",
+        "outputPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -270,8 +273,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Application\\Application.csproj"
               }
             }
           }
@@ -311,14 +314,14 @@
         }
       }
     },
-    "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj": {
+    "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj",
+        "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\Persistence.csproj",
         "packagesPath": "C:\\Users\\PanSt\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\obj\\",
+        "outputPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -339,8 +342,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj"
+              "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj": {
+                "projectPath": "c:\\Users\\PanSt\\source\\repos\\Reactivities-2\\Domain\\Domain.csproj"
               }
             }
           }
